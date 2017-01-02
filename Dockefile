@@ -1,0 +1,5 @@
+FROM debian:stable
+MAINTAINER Gambia <Alexgambino22@gmail.com> #Setting docker account which I don't have.
+
+RUN apt-get update
+RUN apt-get upgrade -y
