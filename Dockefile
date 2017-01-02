@@ -1,5 +1,4 @@
 FROM debian:stable
 MAINTAINER Gambia <Alexgambino22@gmail.com> #Setting docker account which I don't have.
 
-RUN apt-get update
-RUN apt-get upgrade -y
+RUN apt-get update && apt-get upgrade -y && apt-get install -y apache
